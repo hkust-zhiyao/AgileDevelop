@@ -1,8 +1,10 @@
 # Agile Power
 
-Yao Lu, Qijun Zhang, and Zhiyao Xie, "Unleashing Flexibility of ML-based Power Estimators Through Efficient Development Strategies," ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED), 2024. [[paper]]([https://arxiv.org/pdf/2308.05345.pdf](https://zhiyaoxie.com/files/ISLPED24_AgileDev.pdf))
+Yao Lu, Qijun Zhang, and Zhiyao Xie, "Unleashing Flexibility of ML-based Power Estimators Through Efficient Development Strategies," ACM/IEEE International Symposium on Low Power Electronics and Design (ISLPED), 2024. [[paper]](https://zhiyaoxie.com/files/ISLPED24_AgileDev.pdf)
 
-We propose AgileDevelop and AgileTransfer, efficient ML-based power model development strategies. The AgileDevelop minimizes the overhead involved in model development from scratch by coverage-based sampling, encompassing both signal space and power space. The AgileTransfer enables the transfer of existing models to updated design RTLs with negligible additional costs by generating pseudo labels through source design datasets and calibrating them with sampled ground truth power. The strategies significantly reduce the development overhead from 3 days to 1 hour while maintaining a high accuracy. Such lightweight development strategies lower the overhead of adopting ML-based power models by design teams, and thus AgileDevelop and AgileTransfer are compelling additions to the VLSI designers' toolbox.
+We propose AgileDevelop and AgileTransfer, efficient ML-based power model development strategies. The AgileDevelop minimizes the overhead involved in model development from scratch by coverage-based sampling, encompassing both signal space and power space. The AgileTransfer enables the transfer of existing models to updated design RTLs with negligible additional costs by generating pseudo labels through source design datasets and calibrating them with sampled ground truth power. 
+
+The strategies significantly reduce the development overhead from 3 days to 1 hour while maintaining a high accuracy. Such lightweight development strategies lower the overhead of adopting ML-based power models by design teams, and thus AgileDevelop and AgileTransfer are compelling additions to the VLSI designers' toolbox.
 
 ## Introduction
 The implementation mainly includes two parts:
